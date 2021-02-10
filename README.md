@@ -5,9 +5,7 @@ Este sitio pretende recopilar mis notas acerca de cuestiones relevantes para rea
 
 `sudo nmap -sS -sV -sC -n -Pn <IP_ADDRESS>`   --> Escaneo fuerza bruta
 
-    sudo nmap -sV -vv --script vuln TARGET_IP
-
-	--> Escaneo de vulnerabilidades
+    sudo nmap -sV -vv --script vuln TARGET_IP --> Escaneo de vulnerabilidades
 
 `-A`	OS version detection
 `-p<x>` or `-p-`	Port Scan or Scan all ports
