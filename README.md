@@ -26,7 +26,7 @@ Este sitio pretende recopilar mis notas acerca de cuestiones relevantes para rea
 
 - Buscar por extensiones (txt)
 
-    gobuster dir -u http://<IP> -w /usr/share/wordlists/dirb/common.txt -x txt
+    gobuster dir -u http://10.10.10.10 -w /usr/share/wordlists/dirb/common.txt -x txt
 
 ---
 #### WFUZZ - Fuzzing de directorios
