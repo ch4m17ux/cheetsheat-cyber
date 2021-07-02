@@ -101,6 +101,10 @@ sudo john id_rsa.hash`
 `hashcat -m 1800 charlie.hash /usr/share/wordlists/rockyou.txt`
 
 ---
+#### STEGSEEK
+
+- https://github.com/RickdeJager/stegseek
+---
 #### HASHID  - Identificar tipo de hash
 
 `hashid charlie.hash`
