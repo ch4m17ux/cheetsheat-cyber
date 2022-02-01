@@ -349,7 +349,11 @@ And that's it! If that was a bit of a mind-bender, I highly recommend checking o
 
 ---
 ### NOS PUEDE AYUDAR A RECUPERAR LLAVES RSA
+
 https://www.mobilefish.com/services/big_number/big_number.php    - Calcular numeros grandes
+
 https://blog.cryptohack.org/twitter-secrets - Tenemos una key privada rota
+
 https://github.com/ch4m17ux/rsatool/blob/master/rsatool.py - recuperar llave privada teniendo p y q
+
 https://medium.com/@apogiatzis/tokyowestern-ctf-2018-revolutional-secure-angou-write-up-d5aa2b73ae8c - tenemos llave publica y calculamos para poder obtener la key privada
